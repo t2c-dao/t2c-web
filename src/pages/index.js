@@ -7,6 +7,8 @@ import Template from "@/components/Utils/Template"
 import GoodBye from "@/components/Home/GoodBye";
 import Footer from "@/components/Utils/Footer";
 
+
+
 export default function Home() {
   return (
     <div className="bg-[#111217] text-white z-0">

@@ -3,6 +3,7 @@ import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 
 import { socialIcons, mailURL } from "@/config";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 const Header = () => {
   return (
@@ -61,6 +62,7 @@ const Header = () => {
             url={mailURL}
           />
         </motion.div>
+        <ConnectButton label="Sign in" />
       </div>
     </header>
   );
