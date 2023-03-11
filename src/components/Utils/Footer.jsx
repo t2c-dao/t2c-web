@@ -1,38 +1,13 @@
-import { Button, Image, Input } from "antd";
+import { Image } from "antd";
 import GlassMorphicButton from "./GlassMorphicButton";
+import { SocialIcon } from "react-social-icons";
 
-import { footerOptions, projectName, teamName, supportedBy } from "@/config";
+import { footerOptions, mailURL, projectName, teamName, supportedBy } from "@/config";
 
 const Footer = () => {
   return (
-    <div
-      className="w-full flex justify-center items-center flex-col bg-[#24272E]"
-    >
-      <div className="w-[80%] py-12 flex flex-row flex-wrap justify-between items-center border-b border-gray-400">
-        <div className="flex flex-col">
-          <h1 className="text-3xl font-bold">
-            Stay up to date about future releases
-          </h1>
-          <h2 className="text-[#8B8B8B] font-normal mt-2">
-            Directly to your Inbox
-          </h2>
-        </div>
-
-        <div className="flex my-4 border rounded-lg">
-          <Input.Group className="flex flex-row">
-            <Input
-              placeholder="Enter your email address"
-              required
-              className="bg-transparent text-white placeholder:text-gray-500 outline-none focus:outline-none"
-            />
-            <Button className="bg-[#1573FE] border-none text-white hover:text-white">
-              Submit
-            </Button>
-          </Input.Group>
-        </div>
-      </div>
-
-      <div className="w-[80%] py-12 flex flex-row flex-wrap justify-between items-center">
+    <div className="w-full flex justify-center items-center flex-col bg-[#24272E]">
+      <div className="w-[80%] py-6 flex flex-row flex-wrap justify-between items-center">
         {/* left */}
         <div className="flex flex-row mr-6">
           {footerOptions.map(({ sectionName, sectionItems }) => {
@@ -82,9 +57,16 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-[80%] py-4 flex flex-row flex-wrap justify-between items-center">
+      <div className="w-[80%] py-2 flex flex-row flex-wrap justify-between items-center">
         <h2 className="text-base text-[#8B8B8B] font-bold mt-2">
           @ {teamName}
+          <SocialIcon
+            className="cursor-pointer m-0"
+            fgColor="#8B8B8B"
+            bgColor="transparent"
+            network="email"
+            url={mailURL}
+          />
         </h2>
         <div className="mt-2">
           <GlassMorphicButton

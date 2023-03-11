@@ -43,14 +43,13 @@ export const templateText = [
 ];
 
 export const mailURL =
-  "mailto:ashutoshj887@gmail.com?subject=Hello%20ashutosh887.me&body=Got%20your%20Email%20ID%20from%20your%20portfolio%20website%20";
+  "mailto:ashutoshj887@gmail.com?subject=Hello%20Trash2CashDAO&body=Got%20your%20Email%20ID%20from%20your%20website%20.%20You%20are%20doing%20an%20amazing%20job.%20Keep%20it%20up!";
 
 export const footerOptions = [
   {
     sectionName: 'Roadmap',
     sectionItems: [
       'Roadmap',
-      'Request a Feature',
       'Go to app'
     ]
   },
@@ -59,7 +58,6 @@ export const footerOptions = [
     sectionItems: [
       'Contact us',
       'Privacy Policy',
-      'Terms of use'
     ]
   },
   {

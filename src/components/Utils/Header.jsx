@@ -2,7 +2,7 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 
-import { socialIcons, mailURL } from "@/config";
+import { socialIcons } from "@/config";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 const Header = () => {
@@ -29,7 +29,7 @@ const Header = () => {
             return (
               <SocialIcon
                 url={icon.url}
-                fgColor="#8892b0"
+                fgColor="#8B8B8B"
                 bgColor="transparent"
                 key={icon.text}
                 target="_blank"
@@ -54,15 +54,8 @@ const Header = () => {
           }}
           className="flex flex-row items-center text-gray-300 cursor-pointer"
         >
-          <SocialIcon
-            className="cursor-pointer"
-            fgColor="#8892b0"
-            bgColor="transparent"
-            network="email"
-            url={mailURL}
-          />
+          <ConnectButton label="Sign in" />
         </motion.div>
-        <ConnectButton label="Sign in" />
       </div>
     </header>
   );

@@ -2,7 +2,9 @@ import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-import { aboutText, teamName } from "@/config";
+import { SocialIcon } from "react-social-icons";
+
+import { aboutText, teamName, mailURL } from "@/config";
 
 const AboutUs = () => {
   return (
@@ -63,6 +65,17 @@ const AboutUs = () => {
             {text}
           </p>
         ))}
+
+        <h2 className="text-lg">
+          Reach out to us at:
+          <SocialIcon
+            className="cursor-pointer m-0"
+            fgColor="#8B8B8B"
+            bgColor="transparent"
+            network="email"
+            url={mailURL}
+          />
+        </h2>
       </div>
     </motion.div>
   );
