@@ -25,17 +25,7 @@ const Header = () => {
           }}
           className="flex flex-row items-center"
         >
-          {socialIcons.map((icon) => {
-            return (
-              <SocialIcon
-                url={icon.url}
-                fgColor="#8B8B8B"
-                bgColor="transparent"
-                key={icon.text}
-                target="_blank"
-              />
-            );
-          })}
+          <h1 className="text-2xl font-bold">Trash2Cash DAO</h1>
         </motion.div>
 
         <motion.div
@@ -54,6 +44,18 @@ const Header = () => {
           }}
           className="flex flex-row items-center text-gray-300 cursor-pointer"
         >
+          {socialIcons.map((icon) => {
+            return (
+              <SocialIcon
+                url={icon.url}
+                fgColor="#8B8B8B"
+                bgColor="transparent"
+                key={icon.text}
+                target="_blank"
+                className="mx-4"
+              />
+            );
+          })}
           <ConnectButton label="Sign in" />
         </motion.div>
       </div>

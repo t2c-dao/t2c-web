@@ -16,6 +16,7 @@ const GlassMorphicButton = ({
         preview={false}
         width="20px"
         height="20px"
+        className="rounded-full"
       />
       <span className={`mx-2 text-lg text-[${rightColor}]`}>{rightText}</span>
     </button>
