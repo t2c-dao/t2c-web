@@ -19,17 +19,17 @@ const AboutT2C = () => {
       className="flex flex-col relative h-screen text-center md:text-left md:flex-row 
     max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl font-bold">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl font-bold mb-8">
         About Us
       </h3>
 
       <div className="flex flex-col items-center justify-center">
         <Image
           src="/logo.jpg"
-          width={150}
-          height={150}
+          width={110}
+          height={110}
           alt="t2c-circular-logo"
-          className="rounded-full m-5"
+          className="rounded-full mt-6 mb-4 border"
         />
 
         <h1 className="text-3xl glow mt-4 mb-6">{tagline}</h1>
