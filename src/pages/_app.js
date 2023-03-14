@@ -1,5 +1,6 @@
 
 import '@rainbow-me/rainbowkit/styles.css'
+import '@/styles/styles.css';
 import "@/styles/globals.css"
 import {
   getDefaultWallets,

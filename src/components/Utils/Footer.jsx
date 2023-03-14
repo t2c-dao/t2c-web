@@ -33,11 +33,12 @@ const Footer = () => {
         {/* right */}
         <div className="flex flex-col">
           <Image
-            src="/logoc.png"
+            src="/logo.jpg"
             alt={projectName}
             preview={false}
             width="50px"
             height="50px"
+            className="rounded-full"
           />
 
           <div className="flex justify-end space-x-4">
