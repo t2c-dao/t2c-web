@@ -75,7 +75,7 @@ const Footer = () => {
             leftColor="#8B8B8B"
             rightText={supportedBy}
             rightColor="white"
-            logo="/logoc.png"
+            logo="/logo.jpg"
           />
         </div>
       </div>
