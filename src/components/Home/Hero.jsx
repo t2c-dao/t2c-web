@@ -21,6 +21,7 @@ const Hero = () => {
       <Button
         type="primary"
         className="bg-[#1573FE] flex items-center justify-center"
+        href="/dashboard"
       >
         Go to app
         <ArrowRightOutlined />
