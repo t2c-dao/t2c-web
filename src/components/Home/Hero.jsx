@@ -25,6 +25,16 @@ const Hero = () => {
         <ArrowRightOutlined />
       </Button>
 
+      <Button
+        type="primary"
+        className="bg-[#1573FE] flex items-center justify-center mt-2"
+        href="https://github.com/t2c-dao/t2c-app"
+        target="_blank"
+      >
+        Download App
+        <ArrowRightOutlined />
+      </Button>
+
       <div className="mt-8 mb-8">
         <GlassMorphicButton
           leftText="Powered By"

@@ -9,26 +9,13 @@ export const members = ["Ashutosh Jha", "Shouryam Kumar", "Dinki Yaduwanshi"];
 export const socialIcons = [
   {
     text: "GitHub",
-    url: "https://github.com/shouryam-kumar/Trash2CashDAO",
+    url: "https://github.com/t2c-dao",
   },
 ];
 
 export const heroMain = `Your Gateway to the Ultimate experience on ${projectName} using Web 3.0`
 
 export const heroDescription = `Experience a new era of waste management with ${projectName}'s methodologies. An all-improved experience on Blockchain Network.`
-
-export const aboutText = [
-  "This is the first line for about",
-  "Some more funky details",
-  "Some random tech details...",
-];
-
-export const templateText = [
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias harum eos voluptatem cumque, totam possimus dicta distinctio hic adipisci eaque libero officiis consequatur? Nemo aliquid neque doloribus architecto eum nobis!",
-  "consequatur? Nemo aliquid neque doloribus architecto eum nobis!",
-  "Ashutosh is ipsum dolor sit amet consectetur adipisicing elit. Molestias harum eos voluptatem cumque, totam possimus dicta distinctio hic adipisci eaque libero officiis consequatur? Nemo aliquid neque doloribus architecto eum nobis!",
-  "amet consectetur adipisicing elit. Molestias harum eos voluptatem... Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias harum eos voluptatem cumque, totam possimus dicta distinctio hic adipisci eaque libero officiis consequatur? Nemo aliquid neque doloribus architecto eum nobis!",
-];
 
 export const mailURL =
   "mailto:ashutoshj887@gmail.com?subject=Hello%20Trash2CashDAO&body=Got%20your%20Email%20ID%20from%20your%20website%20.%20You%20are%20doing%20an%20amazing%20job.%20Keep%20it%20up!";
