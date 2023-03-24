@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '@/components/Utils/Header';
 import DetailSeriesChart from '@/components/Dashboard/DetailSeries';
 import DonutSeries from '@/components/Dashboard/DonutSeries';
+import RadarSeries from '@/components/Dashboard/RadarSeries';
 
 const Dashboard = () => {
   return (
@@ -10,14 +11,12 @@ const Dashboard = () => {
         <Header />
       </div>
 
-      <div className='w-full flex max-w-7xl items-center my-2'>
-        <div className='w-max h-[40vh]'>
+      <div className='w-full flex max-w-7xl items-center my-2 justify-around'>
+        <div className='w-max h-[40vh] bg-white'>
           <DonutSeries />
         </div>
-        <div className='w-[28%] flex justify-center flex-col'>
-          <h1 className='text-lg'>Series showing the Token distribution among different organizations</h1>
-
-          <p className='text-sm my-2'>Select on a data point to know more about it:</p>
+        <div className='bg-white h-[40vh] w-max'>
+          <RadarSeries />
         </div>
       </div>
 
