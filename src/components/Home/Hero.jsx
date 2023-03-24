@@ -28,7 +28,7 @@ const Hero = () => {
       <div className="mt-8 mb-8">
         <GlassMorphicButton
           leftText="Powered By"
-          logo="/logo.jpg"
+          logo="/logo.png"
           rightText={teamName}
           rightColor="#E6007A"
         />

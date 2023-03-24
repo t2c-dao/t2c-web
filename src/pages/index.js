@@ -2,8 +2,6 @@ import Head from "next/head";
 
 import Header from "@/components/Utils/Header";
 import Hero from "@/components/Home/Hero";
-// import AboutUs from "@/components/Home/AboutUs";
-// import Template from "@/components/Utils/Template"
 import GoodBye from "@/components/Home/GoodBye";
 import Footer from "@/components/Utils/Footer";
 import AboutT2C from "@/components/Home/AboutT2C";

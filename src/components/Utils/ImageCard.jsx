@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const ImageCard = ({image='/logo.jpg', heading='Default heading', description}) => {
+const ImageCard = ({image='/logo.png', heading='Default heading', description}) => {
   return (
     <div className="border border-black hover:border-gray-500 my-4 mx-6 flex flex-col justify-around items-center w-[300px] h-[180px] transition-all duration-300 rounded-lg cursor-pointer shadow-md hover:shadow-white">
       <Image

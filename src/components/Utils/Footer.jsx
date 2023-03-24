@@ -33,7 +33,7 @@ const Footer = () => {
         {/* right */}
         <div className="flex flex-col">
           <Image
-            src="/logo.jpg"
+            src="/logo.png"
             alt={projectName}
             preview={false}
             width="50px"

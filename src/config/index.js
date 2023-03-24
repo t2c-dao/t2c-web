@@ -13,7 +13,7 @@ export const socialIcons = [
   },
 ];
 
-export const heroMain = `Your Gateway to the Ultimate experience on ${projectName} using Blockchain`
+export const heroMain = `Your Gateway to the Ultimate experience on ${projectName} using Web 3.0`
 
 export const heroDescription = `Experience a new era of waste management with ${projectName}'s methodologies. An all-improved experience on Blockchain Network.`
 

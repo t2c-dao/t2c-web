@@ -25,7 +25,7 @@ const AboutT2C = () => {
 
       <div className="flex flex-col items-center justify-center">
         <Image
-          src="/logo.jpg"
+          src="/logo.png"
           width={110}
           height={110}
           alt="t2c-circular-logo"
