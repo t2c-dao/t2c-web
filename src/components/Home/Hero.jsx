@@ -2,6 +2,7 @@ import { Button } from "antd";
 import { ArrowRightOutlined } from "@ant-design/icons";
 import GlassMorphicButton from "@/components/Utils/GlassMorphicButton";
 import { heroDescription, heroMain, teamName } from "@/config";
+import Link from "next/link";
 
 const Hero = () => {
   // TODO add small section toggle icon
@@ -34,6 +35,13 @@ const Hero = () => {
         Download App
         <ArrowRightOutlined />
       </Button>
+
+      <Link
+        className=" flex items-center justify-center mt-2"
+        href='/dashboard'
+      >
+        Dashboard
+      </Link>
 
       <div className="mt-8 mb-8">
         <GlassMorphicButton

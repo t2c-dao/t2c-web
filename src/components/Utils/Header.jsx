@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { socialIcons } from "@/config";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -25,7 +26,7 @@ const Header = () => {
           }}
           className="flex flex-row items-center"
         >
-          <h1 className="text-2xl font-bold">Trash2Cash DAO</h1>
+          <Link className="text-2xl font-bold" href="/">Trash2Cash DAO</Link>
         </motion.div>
 
         <motion.div
